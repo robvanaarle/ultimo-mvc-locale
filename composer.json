@@ -1,5 +1,5 @@
 {
-    "name": "robvanaarle/ultimo-locale-mvc",
+    "name": "robvanaarle/ultimo-mvc-locale",
     "description": "Locale formatting for Ultimo MVC",
     "type": "library",
     "keywords": [
@@ -24,17 +24,12 @@
       	},
       	{
         	"type": "vcs",
-        	"url": "https://github.com/robvanaarle/ultimo-phptpl"
-      	},
-      	{
-        	"type": "vcs",
         	"url": "https://github.com/robvanaarle/ultimo-session"
       	}
     ],
     "require": {
         "robvanaarle/ultimo-locale": "dev-master",
         "robvanaarle/ultimo-mvc": "dev-master",
-        "robvanaarle/ultimo-phptpl": "dev-master",
         "robvanaarle/ultimo-session": "dev-master"
     },
     "autoload": {

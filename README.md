@@ -1,4 +1,4 @@
-# Ultimo Locale MVC
+# Ultimo MVC Locale
 Locale formatting for Ultimo MVC
 
 Includes an helper for Phptpl to format in views.
@@ -7,7 +7,6 @@ Includes an helper for Phptpl to format in views.
 * PHP 5.3
 * Ultimo Locale
 * Ultimo MVC
-* Ultimo Phptpl
 * Ultimo Session
 
 ## Usage
@@ -19,5 +18,5 @@ Includes an helper for Phptpl to format in views.
 ### Formatting in Controller
 	$this->application->getPlugin('locale')->getFormatter()->formatDate($date, 'shortest');
 
-### Formatting in View
+### Formatting in View (If using Ultimo MVC Phptpl)
 	<?php echo $this->locale()->getFormatter()->formatDate($date, 'shortest') ?>
